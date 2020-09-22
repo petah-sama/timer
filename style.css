@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap');
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    letter-spacing: 10px;
+}
+
+.dial {
+    height: 400px;
+    width: 400px;
+  }
+  
+  .timer {
+    position: relative;
+    display: table;
+    margin: 5% auto;
+  }
+  
+  * {
+    font: inherit;
+  }
+  
+  body {
+    font-family: 'Noto Serif JP', serif;
+    background-color: rgba(142, 154, 176, 0.7);
+}
+  
+  .timer input {
+    display: block;
+    border: none;
+    width: 240px;
+    font-size: 90px;
+    text-align: center;
+    background-color: rgba(142, 154, 176, 0);
+  }
+  
+  .timer button {
+    border: none;
+    font-size: 36px;
+    cursor: pointer;
+    background-color: #01f0a4;
+    border-radius: 30%;
+    padding: 0px 8px 2px 8px;
+
+  }
+  
+  .timer button:focus {
+    outline: none;
+  }
+  
+  .timer input:focus {
+    outline: none;
+  }
+  
+  .controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
